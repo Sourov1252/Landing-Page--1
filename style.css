@@ -105,3 +105,8 @@
 .banner-buttons .banner-btn-2 .fa-play {
   margin-right: 6px;
 }
+.banner-buttons .banner-btn-1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
