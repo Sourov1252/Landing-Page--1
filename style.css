@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+#navbar-section {
+  display: flex;
+  width: 92px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 120px;
+  background-color: #fff;
+  align-items: center;
+}
+#navbar-section ul {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+  /* font-size: 16px; */
+}
+#navbar-section ul a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  /* font-size: 16px; */
+  padding: 12px 16px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.banner {
+  padding: 70px 120px 225px 120px;
+  /* width: 11; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  gap: 16px;
+  color: white;
+}
+.banner .early-access {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  background-color: white;
+  max-width: 229px;
+}
+.banner .early-access-logo {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(70, 145, 101, 0.4);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.banner .early-access-logo div {
+  width: 12px;
+  height: 12px;
+  background: rgba(70, 145, 101, 0.4);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.banner .early-access-logo div div {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(70, 145, 101);
+  border-radius: 50%;
+}
+.early-access .early-access-text {
+  color: #30b868;
+}
+
+.banner h1 {
+  font-size: 72px;
+  opacity: 90%;
+  text-align: center;
+}
+.banner h1 span {
+  color: #30b868;
+}
+.banner p {
+  line-height: 24px;
+  font-size: 18;
+  margin-bottom: 16px;
+}
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+}
+.banner-buttons .banner-btn-2 {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.banner-buttons .banner-btn-2 .fa-play {
+  margin-right: 6px;
+}
