@@ -5,6 +5,21 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: auto; /* scrolling allowed */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome/Edge/Safari */
+}
+
 #navbar-section {
   display: flex;
   width: 92px;
@@ -109,4 +124,49 @@
   display: flex;
   gap: 8px;
   align-items: center;
+}
+.notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 120px 30px 120px;
+}
+.notes h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+.notes p {
+  color: #627382;
+  margin-bottom: 44px;
+}
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px 24px;
+  box-shadow: 0 0 5px 2px #eee;
+  width: 322px;
+  height: 300px;
+  gap: 14px;
+}
+.card img {
+  background-color: #f95555;
+  color: white;
+  border-radius: 50%;
+  /* height: 60px;
+  width: 60px; */
+  padding: 14px;
+  margin-top: 31px;
+}
+.card h3 {
+  font-size: 24px;
+  color: #001931;
 }
