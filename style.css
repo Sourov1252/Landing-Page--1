@@ -244,3 +244,42 @@ body::-webkit-scrollbar {
   display: flex;
   gap: 10px;
 }
+
+footer {
+  background-color: #001931;
+  color: white;
+  padding: 120px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+footer > div > div ul {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+footer > div > div ul a {
+  color: white;
+}
+
+footer > hr {
+  border: none;
+  border-top: 2px solid #3a3c3f;
+}
+footer > p {
+  text-align: center;
+}
