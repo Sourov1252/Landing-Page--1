@@ -170,7 +170,8 @@ body::-webkit-scrollbar {
   font-size: 24px;
   color: #001931;
 }
-.second-brain {
+.second-brain,
+.second-early-access {
   padding: 120px;
 }
 .second-brain-container {
@@ -214,4 +215,32 @@ body::-webkit-scrollbar {
   align-items: center;
   gap: 6px;
   line-height: 20px;
+}
+
+.second-early-access {
+  padding-top: 0;
+}
+
+.second-early-access-container {
+  width: 100%;
+  background-color: rgba(237, 237, 237, 0.375);
+  padding: 120px 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+.second-early-access-container h2 {
+  font-size: 43px;
+  color: #001931;
+}
+.second-early-access-container p {
+  color: #627382;
+  line-height: 24px;
+}
+.second-early-access-container button.btn {
+  display: flex;
+  gap: 10px;
 }
